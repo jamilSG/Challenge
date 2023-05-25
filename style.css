@@ -1,35 +1,130 @@
 body{
     background-color: #E9ECF8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div{
     margin: 0px 3%;
 }
 
+p{
+    padding-top: 1%;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .outputSection{
-    background-color:aqua ;
     float: right;
-    width: 30%;
-    height:630px;
+    width: 25%;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitePannel{
+    background-color: white;
+    height: 95%;
+    width: 90%;
+    border-radius: 32px;
+}
+
+.imagenEspera{
+    margin-top: 20%;
+    display: flex;
+    margin-top: 20%;
+    justify-content: center;
+}
+
+.outputSection img{
+    object-fit: cover;
+    width: 80%;
 }
 
 .logoSection{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color:blueviolet;
     width: 60%;
     height: 50px;
 }
 
 .inputSection{
-    background-color:burlywood;
     margin-bottom: 20px;
     width: 60%;
-    height: 440px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
+/*
+
+En caso que San no funcione correctamente, almenos tenemos esta sección
+
+input[type="text"]{
+    color: #0A3871;
+    width: 60%;
+    border: 0;
+    margin-top: 25px;
+    font-size: 24px;
+
+    &:focus {
+        border: none;
+    }
+
+    &:active {
+        border: none;
+    }
+}
+
+::placeholder{
+    color: #0A3871;
+}
+*/
+.textarea {
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 24px;
+    display: block;
+    width: 60%;
+    border: 0;
+    overflow: hidden;
+    resize: vertical;
+    min-height: 40px;
+    line-height: 20px;
+  }
+
+  .textarea[contenteditable]:empty::before {
+    content: "Ingrese el texto aqui";
+    color: #0A3871;
+  }
+
+
 .buttonSection{
-    background-color:darkcyan;
     width: 60%;
     height: 100px;
+}
+
+.buttonSection p{
+    font-size: 12px;
+    opacity: 80%;
+}
+
+input[type="button"]{
+    margin-top: 7px;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border-color: #0A3871;
+}
+
+input[value="Encriptar"]{
+    margin-left: 33%;
+    background-color: #0A3871;
+    color: white;
+}
+
+input[value="Desencriptar"]{
+    background-color: #D8DFE8;
+    color: #0A3871;
 }
