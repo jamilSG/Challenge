@@ -1,0 +1,35 @@
+body{
+    background-color: #E9ECF8;
+}
+
+div{
+    margin: 0px 3%;
+}
+
+.outputSection{
+    background-color:aqua ;
+    float: right;
+    width: 30%;
+    height:630px;
+}
+
+.logoSection{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:blueviolet;
+    width: 60%;
+    height: 50px;
+}
+
+.inputSection{
+    background-color:burlywood;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 440px;
+}
+
+.buttonSection{
+    background-color:darkcyan;
+    width: 60%;
+    height: 100px;
+}
