@@ -60,21 +60,19 @@ function decodificar(texto){
 }
 
 function encriptar(){
-  /*alert("Hola")*/
-
   //reseteo entrada
   var texto = entrada.textContent;
   limpiezaWhitePannel();
+  entrada.textContent = "";
 
   salida.innerHTML = crear(texto);
 }
 
 function desencriptar(){
-  /*alert("Hola")*/
-
   //reseteo entrada
   var texto = entrada.textContent;
   limpiezaWhitePannel();
+  entrada.textContent = "";
 
   salida.innerHTML = decodificar(texto);
 }
