@@ -15,11 +15,17 @@
     <body>
         <div class="outputSection">
             <div class="whitePannel">
+
+                <h1 class="salida">Error en codigo</h1>
+
                 <div class="imagenEspera">
                     <img src="imagenes/Body.svg" alt="No se encontro">
                 </div>
-                <p>Ningún mensaje fue encontrado</p>
-                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+
+                <p class="primerTexto">Ningún mensaje fue encontrado</p>
+                <p class="segundoTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+                <input type="button" value="Copiar" class="copiar">
             </div>
         </div>
 
@@ -34,8 +40,11 @@
 
         <div class="buttonSection">
             <p>&#9888 Solo letras minúsculas y sin acentos</p>
-            <input type="button" value="Encriptar">
-            <input type="button" value="Desencriptar">
+            <input type="button" class="encriptar" value="Encriptar">
+            <input type="button" class="desencriptar" value="Desencriptar">
         </div>
+        
+        <script src="script.js"></script>
+        
     </body>
 </html>
