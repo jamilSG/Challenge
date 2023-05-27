@@ -10,7 +10,14 @@ var segundoTexto = document.querySelector(".segundoTexto");
 
 buttonEncriptar.onclick = encriptar;
 buttonDesencriptar.onclick = desencriptar;
-copiar.onclick = copiarResultado;
+copiar.onclick = copiarTexto;
+
+function copiarTexto(){
+  var copiado = salida.innerHTML;
+  navigator.clipboard.writeText(salida.innerHTML)
+  salida.value = "";
+}
+
 
 
 var clave = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]]
@@ -70,8 +77,4 @@ function desencriptar(){
   limpiezaWhitePannel();
 
   salida.innerHTML = decodificar(texto);
-}
-
-function copiarResultado(){
-  
 }
