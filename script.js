@@ -25,8 +25,8 @@ var clave = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]]
 function limpiezaWhitePannel(){
     //reseteo
     imagenEspera.style.visibility = "hidden";
-    primerTexto.style.visibility = "hidden";
-    segundoTexto.style.visibility = "hidden";
+    primerTexto.style.display = "none";
+    segundoTexto.style.display = "none";
    salida.style.visibility = "visible"
 
     copiar.style.visibility = "visible"

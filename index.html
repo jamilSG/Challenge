@@ -13,35 +13,43 @@
     </head>
 
     <body>
-        <div class="outputSection">
-            <div class="whitePannel">
+        <div class="contenedor">
 
-                <h1 class="salida" id="salida">Error en codigo</h1>
-
-                <div class="imagenEspera">
-                    <img src="imagenes/Body.svg" alt="No se encontro">
+            <div class="outputSection">
+                <div class="whitePannel">
+    
+                    <h1 class="salida" id="salida">Error en codigo</h1>
+    
+                    <div class="imagenEspera">
+                        <img src="imagenes/Body.svg" alt="No se encontro">
+                    </div>
+    
+                    <p class="primerTexto">Ningún mensaje fue encontrado</p>
+                    <p class="segundoTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+    
+                    <input type="button" value="Copiar" class="copiar">
                 </div>
-
-                <p class="primerTexto">Ningún mensaje fue encontrado</p>
-                <p class="segundoTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
-
-                <input type="button" value="Copiar" class="copiar">
             </div>
-        </div>
-
-        <div class="logoSection">
-            <img src="imagenes/Logo.svg" alt="Logo de Alura">
-        </div>
-
-        <div class="inputSection">
-            <span class="textarea" role="textbox" contenteditable></span></p>
-           <!--<input type="text" placeholder="Ingrese el texto aqui"> --> 
-        </div>
-
-        <div class="buttonSection">
-            <p>&#9888 Solo letras minúsculas y sin acentos</p>
-            <input type="button" class="encriptar" value="Encriptar">
-            <input type="button" class="desencriptar" value="Desencriptar">
+    
+            <div class="logoSection">
+                <div class="logoImg">
+                    <img src="imagenes/Logo.svg" alt="Logo de Alura">
+                </div>
+            </div>
+    
+            <div class="inputSection">
+                <span class="textarea" role="textbox" contenteditable></span></p>
+               <!--<input type="text" placeholder="Ingrese el texto aqui"> --> 
+            </div>
+    
+            <div class="buttonSection">
+                <p>&#9888 Solo letras minúsculas y sin acentos</p>
+                <div class="buttonSpace">
+                    <input type="button" class="encriptar" value="Encriptar">
+                    <input type="button" class="desencriptar" value="Desencriptar">
+                </div>
+            </div>
+            
         </div>
         
         <script src="script.js"></script>
